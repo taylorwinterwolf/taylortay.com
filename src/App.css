@@ -1,0 +1,145 @@
+.App-logo {
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  background-color: #B8E4F0;
+  text-align: center; 
+}
+p{
+  font-size: .9rem !important;
+}
+.bg-dkblue{
+  background-color: rgb(51, 39, 76);
+}
+.bg-dkpurple{
+  background-color: rgb(62, 32, 110);
+}
+.txt-wht{
+  color: white;
+}
+.navbar a{
+  color: white;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler {
+  border: 2px solid white;
+}
+.introWrapper{
+  background-color:#7267CB;
+  color: #B8E4F0;
+}
+.projectsWrapper{
+  background-color: #B8E4F0;
+  color: rgb(59 123 140);
+}
+.certsWrapper{
+  background-color: #77a3ff;
+  color: #494378;
+}
+.resumeWrapper{
+  background-color: #7267CB;
+  color: #B8E4F0;
+}
+.footerWrapper{
+  background-color:rgb(62, 32, 110);
+  color: white;
+}
+.introWrapper, .projectsWrapper, .certsWrapper, .resumeWrapper, .footerWrapper{
+  padding: 10px 0px;
+}
+.underline{
+  text-decoration: underline;
+}
+.borderBottom{
+  border-bottom: 1px solid gray;
+}
+.separator{
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px solid #b7e4f0;
+  margin: 5px 0px;
+}
+.bold{
+  font-weight: bold;
+}
+.resumeHeader{
+  margin:5px 0px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.strengths li{
+  text-align: left;
+}
+.technical p, .experienceItem p{
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+.experienceItem p{
+  font-weight: bold;
+}
+.experienceItem li, .technical li{
+  text-align: left;
+}
+.certSection{
+  margin: 20px 0px;
+  text-align: left;
+}
+.subtext{
+  margin: 0px;
+  padding: 0px;
+  font-size: .7rem !important;
+  color:#766cb9;
+  font-weight: bold;
+}
+.certDownloadBtn{
+  margin: 5px 0px;
+  text-align: center;
+}
+.card{
+  background-color: #c9f4ff;
+  margin-bottom: 10px;
+}
+.card-body{
+  color: #3b7b8c;
+}
+.cardTxtWrap{
+  min-height: 170px;
+}
+.card-text{
+  font-size: .7rem !important;
+  margin: 5px 0px;
+  padding: 0px;
+}
+.card-title{
+  margin: 0px;
+  padding: 0px;
+}
+.projectLink{
+  margin-top: 10px;
+}
+.cardImgWrapper{
+  width: 100%;
+  max-height:180px;
+  overflow: hidden;
+}
+.monsterImgWrap{
+  margin-bottom: 20px;
+}
