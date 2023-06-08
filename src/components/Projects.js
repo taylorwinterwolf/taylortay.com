@@ -8,7 +8,7 @@ import thepigmethod from '../assets/pigvsl.png'
 
 export default function Projects() {
     return (
-        <div className="projectsWrapper" id='projects'>
+        <div className="projectsWrapper section" id='projects'>
             <div className="container">
                 <div className='col'><h3 className='bold'>FEATURED PROJECTS</h3></div>
                 <div className='row justify-content-start'>
@@ -34,7 +34,7 @@ export default function Projects() {
                                     <p className="card-text">Membership site for The P.I.G. Method, a massive internet marketing training course by top internet marketer Chris "Moneyfingers" Haddad</p>
                                     <p className="card-text"><span className='bold'>Technologies used:</span>Wordpress, PHP, Javascript, HTML, CSS, Bootstrap, Git</p>
                                 </div>
-                                <button type="button" className="btn btn-primary projectLink" data-toggle="modal" data-target="#carouselModal">Launch Demo</button>
+                                <Modal />
                             </div>
                         </div>
                     </div>
@@ -44,7 +44,7 @@ export default function Projects() {
                             <div className="card-body">
                                 <div className='cardTxtWrap'>
                                     <h5 className="card-title bold">MHWY Sales Page</h5>
-                                    <p className="card-text">Sales funnel for Make Him Worship You. This is the sales page for an ecomerce funnel that collects customer information and uppon purchase sends them through a series of up-sell pages and then finally gives customers access to their purchased product</p>
+                                    <p className="card-text">Sales funnel for Make Him Worship You. This is the sales page for an ecommerce funnel that collects customer information and upon purchase sends them through a series of up-sell pages and then finally gives customers access to their purchased product</p>
                                     <p className="card-text"><span className='bold'>Technologies used:</span> PHP, Javascript, HTML, CSS, Bootstrap, Git</p>
                                 </div>    
                                 <a href="https://hewillworshiptwo.com/lfsl/?vtid=lfsl&cbtimer=108" target="_blank" rel="noreferrer" className="btn btn-primary projectLink">View Project</a>
@@ -83,7 +83,7 @@ export default function Projects() {
                             <div className="card-body">
                                 <div className='cardTxtWrap'>
                                     <h5 className="card-title bold">P.I.G. Sales Page</h5>
-                                    <p className="card-text">Sales funnel for The P.I.G. Method. This is the sales page for an ecomerce funnel that collects customer information and uppon purchase sends them through a series of up-sell pages and then finally gives customers access to their purchased product</p>
+                                    <p className="card-text">Sales funnel for The P.I.G. Method. This is the sales page for an ecommerce funnel that collects customer information and upon purchase sends them through a series of up-sell pages and then finally gives customers access to their purchased product</p>
                                     <p className="card-text"><span className='bold'>Technologies used:</span> Javascript, HTML, CSS, Bootstrap, Git</p>
                                 </div>    
                                 <a href="https://taylortay.com/thepigmethod/" target="_blank" rel="noreferrer" className="btn btn-primary projectLink">View Project</a>
@@ -92,7 +92,6 @@ export default function Projects() {
                     </div>
                     <div className='col'><h3 className='bold'>MORE TO COME...</h3></div>
                 </div>
-                <Modal />
             </div>
         </div>
     )

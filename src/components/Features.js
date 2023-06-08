@@ -7,12 +7,12 @@ import monsterImg from '../assets/monsterglasses.png'
 
 export default function Features() {
     return (
-        <div className="introWrapper">
+        <div className="introWrapper section" id='home'>
             <div className="container">
                 <div className='row'>
-                    <div className='col monsterImgWrap'><img src={monsterImg} width={150} alt='Monster Waving Hi'/></div>
+                    <div className='col monsterImgWrap'><img src={monsterImg} width={120} alt='Monster Waving Hi'/></div>
                 </div>
-                <div><h3 className='bold mb-4'>DEVELOPMENT FEATURES</h3></div>
+                <div id='features' className='section'><h3 className='bold mb-4'>DEVELOPMENT FEATURES</h3></div>
                 <div className="row justify-content-center mb-5">
                     <div className="col-3"><img src={codeImg} className='img-fluid' alt='html, css, javascript logos'/></div>
                     <div className="col-6">

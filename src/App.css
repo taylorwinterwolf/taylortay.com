@@ -23,6 +23,18 @@ body{
 p{
   font-size: .9rem !important;
 }
+.navContainer{
+  margin: 0px auto;
+  max-width: 1000px;
+  width: 100%;
+}
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  /* Additional styling */
+}
 .bg-dkblue{
   background-color: rgb(51, 39, 76);
 }
@@ -34,6 +46,9 @@ p{
 }
 .navbar a{
   color: white;
+}
+.navbar a:hover{
+  color: #93c7d5;
 }
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='white' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
@@ -102,6 +117,9 @@ p{
   margin: 20px 0px;
   text-align: left;
 }
+.certSection p{
+  font-size: .7rem !important;
+} 
 .subtext{
   margin: 0px;
   padding: 0px;
@@ -142,4 +160,15 @@ p{
 }
 .monsterImgWrap{
   margin-bottom: 20px;
+}
+.carousel-control-next-icon{
+  background-image: url(./assets/right-arrow.png);
+  width: 19px;
+}
+.carousel-control-prev-icon {
+  background-image: url(./assets/left-arrow.png);
+  width: 19px;
+}
+.modal-body{
+  font-size: .7rem;
 }

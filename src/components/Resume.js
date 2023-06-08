@@ -1,10 +1,8 @@
 import taylorResume from '../downloads/TaylorWolfResume2023.pdf'
-import linkedIn from '../assets/linkedin.png'
-import rightArrow from '../assets/right-arrow.png'
 
 export default function Resume() {
     return (
-        <div className="resumeWrapper">
+        <div className="resumeWrapper section" id='resume'>
             <div className="container">
                 <div className='row mt-3 mb-3'>
                     <a href={taylorResume} download="TaylorWolfResume2023"><button type="button" className="btn btn-info">Download Resume PDF</button></a>
@@ -13,20 +11,19 @@ export default function Resume() {
                     <div className="col-lg-9">
                         <h1 className="bold">TAYLOR WOLF</h1>
                         <div className="separator"></div>
-                        <div><a href="https://www.linkedin.com/in/taylor-wolf-2534569/" target="_blank" rel="noreferrer"><img src={rightArrow} className='img-fluid' alt='LinkedIn Logo' width={29}/>&nbsp;<img src={linkedIn} className='img-fluid' alt='LinkedIn Logo' width={30}/></a></div>
                         <p className="resumeHeader">FRONT-END WEB DEVELOPER</p>
                         <p>Experienced front-end web developer with over 10 years of expertise in designing and developing dynamic and visually appealing websites. Proficient in HTML, CSS, and JavaScript, with a strong focus on responsive design and user-centric interfaces. Demonstrated ability to transform complex concepts into intuitive and engaging user experiences. Adept at collaborating with cross-functional teams and clients to deliver high-quality projects within deadlines. Committed to continuous learning. A reliable professional with a proven track record of delivering exceptional results.</p>
                         <div className="separator"></div>
                         <p className="resumeHeader">CORE STRENGTHS</p>
                         <ul className="strengths">
-                                <li>Proficiency in the core front-end technologies</li>
-                                <li>Responsive Web Design</li>
-                                <li>Version Control</li>
-                                <li>Performance Optimization</li>
-                                <li>Problem Solving and Troubleshooting</li>
-                                <li>Collaboration and Communication</li>
-                                <li>Continuous learning</li>
-                            </ul>
+                            <li>Proficiency in the core front-end technologies</li>
+                            <li>Responsive Web Design</li>
+                            <li>Version Control</li>
+                            <li>Performance Optimization</li>
+                            <li>Problem Solving and Troubleshooting</li>
+                            <li>Collaboration and Communication</li>
+                            <li>Continuous learning</li>
+                        </ul>
                         <div className="separator"></div>
                         <p className="resumeHeader">TECHNICAL SKILLS</p>
                         <div className="technical">
