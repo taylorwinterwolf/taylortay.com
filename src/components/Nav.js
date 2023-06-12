@@ -20,9 +20,9 @@ export default function Nav() {
     return (
         <nav className="navbar navbar-expand-md bg-dkpurple txt-wht sticky-top" id='navbar'>
         <div className="container navContainer">
-            <a className="navbar-brand d-none d-sm-block" href="#home">
+            <a className="navbar-brand" href="#home">
               <img src={logo} alt="Logo" width="30" height="30" className="d-inline-block align-text-top"/>
-              <span className='ms-2'>Taylor Wolf &nbsp;&nbsp; Front-end Dev</span>
+              <span className='ms-2'>Taylor Wolf &nbsp;&nbsp;</span><span className='d-none d-sm-inline-block'>Front-end Dev</span>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

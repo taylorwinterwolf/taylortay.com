@@ -117,9 +117,6 @@ p{
   margin: 20px 0px;
   text-align: left;
 }
-.certSection p{
-  font-size: .7rem !important;
-} 
 .subtext{
   margin: 0px;
   padding: 0px;
@@ -139,10 +136,9 @@ p{
   color: #3b7b8c;
 }
 .cardTxtWrap{
-  min-height: 170px;
+  min-height: 228px;
 }
 .card-text{
-  font-size: .7rem !important;
   margin: 5px 0px;
   padding: 0px;
 }
@@ -172,3 +168,10 @@ p{
 .modal-body{
   font-size: .7rem;
 }
+@media (max-width: 405px) {
+  .footerTxt{
+    font-size: .7rem;
+  }
+}
+
+

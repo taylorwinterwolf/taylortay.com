@@ -3,7 +3,7 @@ import taylorResume from '../downloads/TaylorWolfResume2023.pdf'
 export default function Resume() {
     return (
         <div className="resumeWrapper section" id='resume'>
-            <div className="container">
+            <div className="container-lg">
                 <div className='row mt-3 mb-3'>
                     <a href={taylorResume} download="TaylorWolfResume2023"><button type="button" className="btn btn-info">Download Resume PDF</button></a>
                 </div>

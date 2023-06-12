@@ -9,10 +9,10 @@ import thepigmethod from '../assets/pigvsl.png'
 export default function Projects() {
     return (
         <div className="projectsWrapper section" id='projects'>
-            <div className="container">
+            <div className="container-lg">
                 <div className='col'><h3 className='bold'>FEATURED PROJECTS</h3></div>
-                <div className='row justify-content-start'>
-                    <div className="col-3">
+                <div className='row justify-content-center justify-content-sm-start'>
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
                             <div className='cardImgWrapper'><img src={justtodoit} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
                             <div className="card-body">
@@ -25,7 +25,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
                             <div className='cardImgWrapper'><img src={pigmembers} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
                             <div className="card-body">
@@ -38,7 +38,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
                             <div className='cardImgWrapper'><img src={mhwylfsl} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
                             <div className="card-body">
@@ -51,7 +51,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
                             <div className='cardImgWrapper'><img src={affiliates} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
                             <div className="card-body">
@@ -64,7 +64,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
                             <div className='cardImgWrapper'><img src={dhlyquiz} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
                             <div className="card-body">
@@ -77,7 +77,7 @@ export default function Projects() {
                             </div>
                         </div>
                     </div>
-                    <div className="col-3">
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
                             <div className='cardImgWrapper'><img src={thepigmethod} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
                             <div className="card-body">
