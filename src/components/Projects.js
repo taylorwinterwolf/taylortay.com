@@ -5,6 +5,7 @@ import mhwylfsl from '../assets/mhwylfsl.png'
 import affiliates from '../assets/affiliates.png'
 import dhlyquiz from '../assets/dhlyquiz.png'
 import thepigmethod from '../assets/pigvsl.png'
+import scorenine from '../assets/scorenine.png'
 
 export default function Projects() {
     return (
@@ -14,11 +15,24 @@ export default function Projects() {
                 <div className='row justify-content-center justify-content-sm-start'>
                     <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
+                            <div className='cardImgWrapper'><img src={scorenine} className="card-img-top img-fluid" alt="Score Nine screenshot"/></div>
+                            <div className="card-body">
+                                <div className='cardTxtWrap'>
+                                    <h5 className="card-title bold">Score Nine</h5>
+                                    <p className="card-text">This is a score keeping application for 9 Ball Pool. This app is PACKED full of React JS features, visit the <a href='https://github.com/taylorwinterwolf/Score-Nine' target='_blank' rel="noreferrer">GitHub</a> repository to view the project code</p>
+                                    <p className="card-text"><span className='bold'>Technologies used:</span> React JS, Javascript, HTML, CSS, Bootstrap, Git</p>
+                                </div>
+                                <a href="https://taylortay.com/scorenine" target="_blank" rel="noreferrer" className="btn btn-primary projectLink align-bottom">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div className="card">
                             <div className='cardImgWrapper'><img src={justtodoit} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
                             <div className="card-body">
                                 <div className='cardTxtWrap'>
                                     <h5 className="card-title bold">Just To Do It</h5>
-                                    <p className="card-text">Task Management Application I created to demonstrate my React JS skills to date</p>
+                                    <p className="card-text">Task Management Application I created to demonstrate my React JS skills</p>
                                     <p className="card-text"><span className='bold'>Technologies used:</span> React JS, Javascript, HTML, CSS, Bootstrap, Git, Github Pages</p>
                                 </div>
                                 <a href="https://taylorwinterwolf.github.io/" target="_blank" rel="noreferrer" className="btn btn-primary projectLink align-bottom">View Project</a>
