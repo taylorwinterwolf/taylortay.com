@@ -1,11 +1,11 @@
-import taylorResume from '../downloads/TaylorWolfResume2024.pdf'
+import taylorResume from '../downloads/TaylorWolfResume.pdf'
 
 export default function Resume() {
     return (
         <div className="resumeWrapper section" id='resume'>
             <div className="container-lg">
                 <div className='row mt-3 mb-3'>
-                    <a href={taylorResume} download="TaylorWolfResume2024"><button type="button" className="btn btn-info">Download Resume PDF</button></a>
+                    <a href={taylorResume} download="TaylorWolfResume"><button type="button" className="btn btn-info">Download Resume PDF</button></a>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-9">
@@ -16,23 +16,29 @@ export default function Resume() {
                         <div className="separator"></div>
                         <p className="resumeHeader">CORE STRENGTHS</p>
                         <ul className="strengths">
-                            <li>Proficiency in the core front-end technologies</li>
-                            <li>Responsive Web Design</li>
-                            <li>Version Control</li>
-                            <li>Performance Optimization</li>
-                            <li>Problem Solving and Troubleshooting</li>
-                            <li>Collaboration and Communication</li>
-                            <li>Continuous learning</li>
+                            <li>HTML 5, Javascript(ES6+), CSS 3, and responsive/mobile first web design</li>
+                            <li>Javascript and CSS Frameworks</li>
+                            <li>API integration and usage</li>
+                            <li>Version control using Git and GitHub</li>
+                            <li>Performance optimization through efficient code practices, image compression, and minification</li>
+                            <li>Problem-solving, troubleshooting, and debugging</li>
+                            <li>Email marketing platforms and APIs</li>
+                            <li>Effective collaboration and communication with cross-functional teams and high-profile clients</li>
+                            <li>Highly independent yet a great team collaborator</li>
+                            <li>Excellent written and verbal communication skills</li>
+                            <li>Product presentations to high-level executives and clients</li>
+                            <li>Proactive self-starter committed to continuous learning and personal growth</li>
+                            <li>Emotionally intelligent team player adept at navigating any interaction</li>
                         </ul>
                         <div className="separator"></div>
-                        <p className="resumeHeader">TECHNICAL SKILLS</p>
+                        <p className="resumeHeader">TECHNICAL SKILLS AND EXPERIENCE WITH</p>
                         <div className="technical">
-                            <p><span className="bold">Operating Systems:</span> Mac, Windows, Linux</p>
+                            <p><span className="bold">Operating Systems:</span> Mac, Windows, Some Linux</p>
                             <p><span className="bold">Computer Languages:</span> HTML 5, Javascript, CSS 3, PHP, MySQL</p>
-                            <p><span className="bold">Version Control:</span> Git, Github</p>
-                            <p><span className="bold">Frameworks:</span> Foundational React JS, jQuery, Bootstrap 5</p>
-                            <p><span className="bold">Development Tools:</span> VS Code, Terminal</p>
-                            <p><span className="bold">Applications:</span> Wordpress, Adobe Photoshop, Adobe Illustrator, Microsoft suite, Google suite, Apple suite</p>
+                            <p><span className="bold">Version Control:</span> Git, Github, Bitbucket, Personal Git Servers</p>
+                            <p><span className="bold">Frameworks:</span>React JS, jQuery, Bootstrap JS and CSS, Foundation, Smarty</p>
+                            <p><span className="bold">Development Tools:</span>VS Code, JetBrains, Atom, NPM, Terminal</p>
+                            <p><span className="bold">Applications:</span> Wordpress, Adobe suite, Microsoft suite, Google suite, Apple suite, ClickBank, Kajabi, Stripe, Maropost and Interspire Email Marketing</p>
                         </div>
                         <div className="separator"></div>
                         <p className="resumeHeader">PROFESSIONAL EXPERIENCE</p>
@@ -43,12 +49,16 @@ export default function Resume() {
                             <br></br>
                             <p>Key Responsibilities:</p>
                             <ul>
-                                <li><span className="bold">Website Management:</span> Successfully built, served, and maintained a portfolio of over 20 websites and accounts across three different servers. By leveraging Git and GitHub for a wellstructured version control system, I ensured seamless collaboration and efficient management of codebase across multiple projects. This approach facilitated easy tracking of changes, simplified issue resolution, and enabled effective rollbacks when necessary.</li>
-                                <li><span className="bold">Domain Management:</span> Successfully set up DNS records and managed domains, ensuring seamless domain management and proper functioning of websites and email services. By accurately configuring DNS records, I maintained smooth operations and optimized performance for online assets. Whether it involved setting up CNAME, A, MX, or TXT records, I effectively handled domain-related tasks with meticulous attention to detail.</li>
-                                <li><span className="bold">User Experience:</span> Specialized in building fully responsive websites, ensuring they seamlessly adapt to various screen sizes and devices. By employing modern front-end development techniques and frameworks, I create websites that deliver an optimal user experience across different platforms. Additionally, I prioritized building lightweight sites that load quickly, aligning with Google's guidelines for optimal website performance. Through efficient code optimization, image compression, and minification, I strove to provide fast-loading websites that enhance user engagement.</li>
-                                <li><span className="bold">Custom Development:</span> Created custom templates and functionality that can be reused to significantly reduce future development time. By designing modular and reusable components, I optimized efficiency and consistency across projects. These custom templates and functions streamlined the development process, allowing for rapid implementation of common features and reducing the need for repetitive coding. Through this approach, I promoted code reusability, improved maintainability, and expedited the delivery of high-quality solutions.</li>
+                                <li><span className="bold">Website Management:</span> Managed a robust portfolio of 20+ websites across 3 servers, ensuring optimal performance and user experience. Utilized Git & GitHub version control for streamlined collaboration and efficient codebase management, facilitating faster issue resolution and effortless rollbacks when needed.</li>
+                                <li><span className="bold">Domain Management:</span> Configured and managed DNS records (CNAME, A, MX, TXT) for 30+ domains, ensuring seamless domain management, authentication, optimal performance for websites and email services, and maintaining smooth operations with meticulous attention to detail.</li>
+                                <li><span className="bold">User Experience:</span> Concentrated on building fully responsive websites that seamlessly adapted to various screen sizes and devices. Employing modern front-end development techniques and frameworks, I created sites that delivered optimal user experiences across platforms. I prioritized lightweight, fast-loading sites aligned with Google's performance guidelines, optimizing code, utilizing a CDN (Content Delivery Network such as Amazon S3), compressing images, minifying code and minimizing resources to enhance user engagement.</li>
+                                <li><span className="bold">Custom Development:</span> Created custom templates and functionalities designed for reuse, significantly reducing future development time. By designing modular and reusable components, I optimized efficiency and consistency across projects. This approach promoted code reusability, enhanced maintainability, and expedited the delivery of high-quality solutions.</li>
+                                <li><span className="bold">Data Exchange with APIs:</span> Experienced in leveraging APIs to integrate third-party services by effectively utilizing endpoints, employing HTTP methods (GET, POST, PUT, DELETE) for data retrieval and manipulation. Proficient in implementing authentication methods including OAuth and API keys, ensuring secure data transmission. Skilled in handling various data formats such as JSON and XML to optimize application functionality and enhance user experience.</li>
+                                <li><span className="bold">Content Management:</span> Managed and curated content across various Content Management Systems (CMS) including WordPress (primary) and experience with various additional platforms like ClickBank, Kijabi and others. Adept at content creation, editing, and retrieval using CMS interfaces and APIs.</li>
+                                <li><span className="bold">Email Marketing Platforms:</span> Leveraged email marketing platforms (Maropost primary, with experience in Interspire and others) to design, build, and automate email campaigns. Proficient in utilizing APIs to integrate with email marketing systems for seamless data exchange and content updates.</li>
                                 <li><span className="bold">A/B Testing:</span> Executed A/B testing with Google's latest tools, I optimize website performance and user experience. Through controlled experiments, I gathered insights to make data-driven decisions and test variations of elements using tools like Google Optimize. This iterative approach drives higher conversion rates and improved user engagement, aligning with business objectives.</li>
                                 <li><span className="bold">Email Deliverability:</span> Successfully set up and managed mail accounts, including ensuring optimal deliverability by adhering to the latest requirements set by Google. By staying updated with Google's guidelines and best practices, I implemented effective strategies to improve email deliverability, such as configuring SPF, DKIM, and DMARC records</li>
+                                <li><span className="bold">Professionalism, Problem Solving, Team Player:</span> Demonstrated proficiency in problem-solving, troubleshooting, and debugging, alongside effective collaboration and communication across cross-functional teams and high-profile clients. Operated as a highly independent yet strong team collaborator, demonstrating excellent written and verbal communication skills. Presented products adeptly to high-level executives and clients. Driven by a hunger for continuous learning and personal growth. Navigated various interactions with emotional intelligence, underpinning five-star soft skills that shone in any personal interactions.</li>
                             </ul>
                         </div>
                         <div className="experienceItem">
@@ -75,18 +85,14 @@ export default function Resume() {
                         <div className="separator"></div>
                         <p className="resumeHeader">EDUCATION & TRAINING</p>
                         <div className="technical">
-                            <p className="bold">Bachelor of Science – Multi Media Design</p>
+                            <p className="bold">Bachelor of Science – Multi Media Design(Emphasis Web Development)</p>
                             <p>Art Institute of California, San Diego, CA</p>
                             <br></br>
-                            <p className="bold">Programming with JavaScript - 2023</p>
-                            <ul>
-                                <li>Issued by Meta(Facebook)</li>
-                            </ul>
-                            <p className="bold">React Basics - 2023</p>
+                            <p className="bold">Advanced React</p>
                             <ul>
                                 <li>Issued by Meta</li>
                             </ul>
-                            <p className="bold">Advanced React - 2023</p>
+                            <p className="bold">React Basics</p>
                             <ul>
                                 <li>Issued by Meta</li>
                             </ul>

@@ -6,13 +6,15 @@ import jquery from '../assets/jquery.png'
 import monsterImg from '../assets/monsterglasses.png'
 
 export default function Features() {
+    const year = new Date().getFullYear()
     return (
         <div className="introWrapper section" id='home'>
             <div className="container-lg">
                 <div className='row d-none d-sm-block'>
                     <div className='col monsterImgWrap'><img src={monsterImg} width={120} alt='Monster Waving Hi'/></div>
                 </div>
-                <div id='features' className='section'><h3 className='bold mb-4'>DEVELOPMENT FEATURES</h3></div>
+                <div className='col bold footerTxt'>Designed and Built by Taylor Wolf {year}&nbsp;&nbsp;&nbsp;</div>
+                <div id='features' className='section mt-4'><h3 className='bold mb-4'>DEVELOPMENT FEATURES</h3></div>
                 <div className="row justify-content-center mb-4">
                     <div className="col-6 col-sm-6 col-md-5 col-lg-3"><img src={codeImg} className='img-fluid' alt='html, css, javascript logos'/></div>
                     <div className="col-12 col-lg-8">
