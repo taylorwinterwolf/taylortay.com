@@ -1,11 +1,11 @@
-import taylorResume from '../downloads/TaylorWolfResume2023.pdf'
+import taylorResume from '../downloads/TaylorWolfResume2024.pdf'
 
 export default function Resume() {
     return (
         <div className="resumeWrapper section" id='resume'>
             <div className="container-lg">
                 <div className='row mt-3 mb-3'>
-                    <a href={taylorResume} download="TaylorWolfResume2023"><button type="button" className="btn btn-info">Download Resume PDF</button></a>
+                    <a href={taylorResume} download="TaylorWolfResume2024"><button type="button" className="btn btn-info">Download Resume PDF</button></a>
                 </div>
                 <div className="row justify-content-center">
                     <div className="col-lg-9">
