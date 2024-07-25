@@ -35,13 +35,13 @@ export default function Projects() {
                                     <p className="card-text">Task Management Application I created to demonstrate my React JS skills</p>
                                     <p className="card-text"><span className='bold'>Technologies used:</span> React JS, Javascript, HTML, CSS, Bootstrap, Git, Github Pages</p>
                                 </div>
-                                <a href="https://taylorwinterwolf.github.io/" target="_blank" rel="noreferrer" className="btn btn-primary projectLink align-bottom">View Project</a>
+                                <a href="https://wolf-just-to-do-it.web.app/" target="_blank" rel="noreferrer" className="btn btn-primary projectLink align-bottom">View Project</a>
                             </div>
                         </div>
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
-                            <div className='cardImgWrapper'><img src={pigmembers} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
+                            <div className='cardImgWrapper'><img src={pigmembers} className="card-img-top img-fluid" alt="P.I.G. Method Members Screen Shot"/></div>
                             <div className="card-body">
                                 <div className='cardTxtWrap'>
                                     <h5 className="card-title bold">The P.I.G. Method Membership Site</h5>
