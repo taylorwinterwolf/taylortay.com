@@ -5,8 +5,10 @@ export default function Resume() {
         <div className="resumeWrapper section" id='resume'>
             <div className="container-lg">
                 <div className='row mt-3 mb-3'>
+                    <h3 className="bold">Taylor Wolf Front-end Dev Resume</h3>
                     <a href={taylorResume} download="TaylorWolfResume"><button type="button" className="btn btn-info">Download Resume PDF</button></a>
                 </div>
+                {/*
                 <div className="row justify-content-center">
                     <div className="col-lg-9">
                         <h1 className="bold">TAYLOR WOLF</h1>
@@ -99,6 +101,7 @@ export default function Resume() {
                         </div>
                     </div>
                 </div>
+                */}
             </div>
         </div>
     )

@@ -22,7 +22,7 @@ export default function Projects() {
                                     <p className="card-text">This is a score keeping application for 9 Ball Pool. This app is PACKED full of React JS features, visit the <a href='https://github.com/taylorwinterwolf/Score-Nine' target='_blank' rel="noreferrer">GitHub</a> repository to view the project code</p>
                                     <p className="card-text"><span className='bold'>Technologies used:</span> React JS, Javascript, HTML, CSS, Bootstrap, Git</p>
                                 </div>
-                                <a href="https://taylortay.com/scorenine" target="_blank" rel="noreferrer" className="btn btn-primary projectLink align-bottom">View Project</a>
+                                <a href="https://scorenine.web.app/" target="_blank" rel="noreferrer" className="btn btn-primary projectLink align-bottom">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -41,6 +41,19 @@ export default function Projects() {
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
+                            <div className='cardImgWrapper'><img src={thepigmethod} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
+                            <div className="card-body">
+                                <div className='cardTxtWrap'>
+                                    <h5 className="card-title bold">P.I.G. Sales Page</h5>
+                                    <p className="card-text">Sales funnel for The P.I.G. Method. This is the sales page for an ecommerce funnel that collects customer information and upon purchase sends them through a series of up-sell pages and then finally gives customers access to their purchased product</p>
+                                    <p className="card-text"><span className='bold'>Technologies used:</span> Javascript, HTML, CSS, Bootstrap, Git</p>
+                                </div>    
+                                <a href="https://pigmethod.taylortay.com/" target="_blank" rel="noreferrer" className="btn btn-primary projectLink">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div className="card">
                             <div className='cardImgWrapper'><img src={pigmembers} className="card-img-top img-fluid" alt="P.I.G. Method Members Screen Shot"/></div>
                             <div className="card-body">
                                 <div className='cardTxtWrap'>
@@ -49,19 +62,6 @@ export default function Projects() {
                                     <p className="card-text"><span className='bold'>Technologies used:</span>Wordpress, PHP, Javascript, HTML, CSS, Bootstrap, Git</p>
                                 </div>
                                 <Modal />
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <div className="card">
-                            <div className='cardImgWrapper'><img src={mhwylfsl} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
-                            <div className="card-body">
-                                <div className='cardTxtWrap'>
-                                    <h5 className="card-title bold">MHWY Sales Page</h5>
-                                    <p className="card-text">Sales funnel for Make Him Worship You. This is the sales page for an ecommerce funnel that collects customer information and upon purchase sends them through a series of up-sell pages and then finally gives customers access to their purchased product</p>
-                                    <p className="card-text"><span className='bold'>Technologies used:</span> PHP, Javascript, HTML, CSS, Bootstrap, Git</p>
-                                </div>    
-                                <a href="https://hewillworshiptwo.com/lfsl/?vtid=lfsl&cbtimer=108" target="_blank" rel="noreferrer" className="btn btn-primary projectLink">View Project</a>
                             </div>
                         </div>
                     </div>
@@ -80,6 +80,19 @@ export default function Projects() {
                     </div>
                     <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                         <div className="card">
+                            <div className='cardImgWrapper'><img src={mhwylfsl} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
+                            <div className="card-body">
+                                <div className='cardTxtWrap'>
+                                    <h5 className="card-title bold">MHWY Sales Page</h5>
+                                    <p className="card-text">Sales funnel for Make Him Worship You. This is the sales page for an ecommerce funnel that collects customer information and upon purchase sends them through a series of up-sell pages and then finally gives customers access to their purchased product</p>
+                                    <p className="card-text"><span className='bold'>Technologies used:</span> PHP, Javascript, HTML, CSS, Bootstrap, Git</p>
+                                </div>    
+                                <a href="https://hewillworshiptwo.com/lfsl/?vtid=lfsl&cbtimer=108" target="_blank" rel="noreferrer" className="btn btn-primary projectLink">View Project</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                        <div className="card">
                             <div className='cardImgWrapper'><img src={dhlyquiz} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
                             <div className="card-body">
                                 <div className='cardTxtWrap'>
@@ -88,19 +101,6 @@ export default function Projects() {
                                     <p className="card-text"><span className='bold'>Technologies used:</span>Javascript, HTML, CSS, Bootstrap, Git</p>
                                 </div>    
                                 <a href="https://doesheloveyouquiz.com/" target="_blank" rel="noreferrer" className="btn btn-primary projectLink">View Project</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                        <div className="card">
-                            <div className='cardImgWrapper'><img src={thepigmethod} className="card-img-top img-fluid" alt="Just To Do It screenshot"/></div>
-                            <div className="card-body">
-                                <div className='cardTxtWrap'>
-                                    <h5 className="card-title bold">P.I.G. Sales Page</h5>
-                                    <p className="card-text">Sales funnel for The P.I.G. Method. This is the sales page for an ecommerce funnel that collects customer information and upon purchase sends them through a series of up-sell pages and then finally gives customers access to their purchased product</p>
-                                    <p className="card-text"><span className='bold'>Technologies used:</span> Javascript, HTML, CSS, Bootstrap, Git</p>
-                                </div>    
-                                <a href="https://taylortay.com/thepigmethod/" target="_blank" rel="noreferrer" className="btn btn-primary projectLink">View Project</a>
                             </div>
                         </div>
                     </div>
